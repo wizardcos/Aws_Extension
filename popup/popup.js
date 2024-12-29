@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const clearChatBtn = document.getElementById('clear-chat-btn');
 
     // Set API Key (Optional: Remove this if already stored securely)
-    chrome.storage.local.set({ apiKey: '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' }, function () {
+    chrome.storage.local.set({ apiKey: 'YOUR_API_KEY' }, function () {
         console.log('API Key has been set.');
     });
 
